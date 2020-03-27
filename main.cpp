@@ -8,7 +8,8 @@ int main ()
     tree.insert(6);
     tree.insert(4);
     tree.insert(8);
-
+     
+    tree.insert(20935);
     tree1.insert(1);
     tree1.insert(100);
     tree1.insert(1123);
