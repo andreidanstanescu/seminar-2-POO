@@ -21,7 +21,8 @@ int main ()
     //tree.afisare();
 
     BST newtree = tree1 + tree;
-    newtree.afisare();
+    //tree=newtree;
+    //newtree.afisare();
     auto s = BST::inordine(newtree);
     for (auto x : s) std::cout << x << ' ';
 }
